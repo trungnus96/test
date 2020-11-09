@@ -6,16 +6,7 @@ import Link from 'next/link'
 import Date from '../components/date'
 
 export default function Home({ allPostsData }) {
-  return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <dir>Camilla x Brauz</dir>
-      </section>
-    </Layout>
-  )
+  return <div>Camilla x Brauz</div>
 }
 
 export async function getStaticProps() {
